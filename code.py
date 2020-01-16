@@ -4,7 +4,7 @@ from urllib import request
 url = r'https://www.bbc.co.uk/news'
 req = request.Request(url)
 
-with reques.urlopen(req) as r:
+with request.urlopen(req) as r:
 	soup = r.read()
 
 title = soup.title.string
