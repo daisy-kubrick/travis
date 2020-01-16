@@ -1,4 +1,4 @@
 services:
   - docker 
 script:
-  - docker image build -t daisystonerdocker/travis .
+  - docker image build -t dockerdaisystoner/travis .
